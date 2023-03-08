@@ -10,6 +10,8 @@ import 'package:notes_app/views/notes_view.dart';
 
 import 'cubits/notes_cubit/notes_cubit.dart';
 
+
+///
 void main() async {
   await Hive.initFlutter();
 
