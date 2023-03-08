@@ -27,5 +27,8 @@ class SimpleBlocObserver implements BlocObserver {
     // TODO: implement onEvent
   }
 
-
+  @override
+  void onTransition(Bloc bloc, Transition transition) {
+    // TODO: implement onTransition
+  }
 }
