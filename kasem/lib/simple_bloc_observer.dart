@@ -7,7 +7,10 @@ class SimpleBlocObserver implements BlocObserver {
     debugPrint('change = $change');
   }
 
-
+  @override
+  void onClose(BlocBase bloc) {
+    debugPrint('close = $bloc');
+  }
 
 
 
