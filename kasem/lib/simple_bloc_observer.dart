@@ -22,7 +22,10 @@ class SimpleBlocObserver implements BlocObserver {
     // TODO: implement onError
   }
 
-
+  @override
+  void onEvent(Bloc bloc, Object? event) {
+    // TODO: implement onEvent
+  }
 
 
 }
